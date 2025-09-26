@@ -198,19 +198,9 @@ p {
 .plan-section .section-inner .section-title .title{
     padding-top: 20px;
     font-size: 16px;
+    padding-bottom: 30px;
 }
 
-.plan-section .section-inner .section-title .more{
-    display: inline-block;
-    color: #c6c6c6;
-    margin-bottom: 20px;
-}
-.plan-section .section-inner .section-title .more span{
-    font-size: 16px;
-}
-.plan-section .section-inner .section-title .more i{
-    font-size: 14px;
-}
 
 /* 이미지 롤링 무한루프 */
 .img-carousel{
