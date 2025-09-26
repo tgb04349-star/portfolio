@@ -1,0 +1,236 @@
+
+.wrap{
+    width: 100%;
+}
+
+/* header */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #fff1d4;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.header-inner{
+    position: relative;
+    width: 1360px;
+    padding: 0 20px;
+    display: flex;
+}
+
+/* logo */
+.logo{
+    position: relative;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:hover{
+    opacity: 0.7;
+}
+
+.menu{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* nav */
+.nav{
+    position: relative;
+    display: flex;
+    gap: 24px;
+}
+
+.nav > li{
+    position: relative;
+}
+
+.nav > li > a{
+    position: relative;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f4aa27;
+}
+
+.nav > li:hover > a{
+    color: #fff;
+}
+
+/* submenu */
+.submenu{
+    position: absolute;
+    z-index: 2;
+}
+
+.submenu li a{
+    width: 150px;
+    text-align: center;
+    line-height: 40px;
+    color: #111;
+    background-color: #fbd795;
+}
+
+.submenu li:hover a{
+    opacity: 0.7;
+    color: #fff;
+}
+
+/* main */
+.main{
+    position: relative;
+}
+
+.main-inner{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* video hero */
+.video-hero {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* 화면의 80% 높이 */
+  overflow: hidden;
+}
+
+.video-hero video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* self-write */
+.self{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* background-color: #feebc4; */
+}
+
+.self span{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    left: 20px;
+    top: 10px;
+}
+
+.self > ul{
+    position: relative;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 40px;
+    top: 50px;
+    right: 100px;
+}
+
+/* planning work*/
+.plan-slide{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #fffcf7;
+}
+
+.plan-slide span{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    top: 20px;
+}
+
+/* swiper */
+.swiper {
+ width: 100%;
+ height: 100%;
+}
+.swiper-slide {
+ text-align: center;
+ font-size: 24px;
+ color: #000;
+ background: #d9d9d9;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.swiper-slide img {
+ display: block;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+/* design work */
+.design-slide{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #fffcf7;
+}
+
+.design-slide span{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    top: 20px;
+}
+
+/* video work */
+.video-slide{
+     position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #fffcf7;
+}
+
+.video-slide span{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    top: 20px;
+}
+
+/* weekly issue */
+.weekly-slide{
+     position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #feebc4;
+}
+
+.weekly-slide span{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    top: 20px;
+}
+
